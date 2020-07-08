@@ -983,7 +983,7 @@ GPlot.prototype.setOuterDim = function() {
 			// Update the layers
 			this.mainLayer.setDim(this.dim);
 
-			for (var i = 0; i < this.layerList.lenght; i++) {
+			for (var i = 0; i < this.layerList.length; i++) {
 				this.layerList[i].setDim(this.dim);
 			}
 		}
